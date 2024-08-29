@@ -1,10 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { createRoot } from "react-dom/client";
 
-class Header extends Component {
-  render() {
-    const { logo, searchPlaceholder } = this.props;
-
+function Header({ logo, searchPlaceholder }) {
     return (
       <header>
         <a href="#">{logo}</a>
@@ -14,15 +11,12 @@ class Header extends Component {
         </form>
       </header>
     );
-  }
 }
 
-class App extends Component {
-  render() {
+function App() {
     return <Header logo="Your company!" searchPlaceholder="Type some words..." />;
-  }
 }
 
 const container = document.getElementById("app");
 const root = createRoot(container);
-root.render(<App />);
+root.render(<><App /></>);
