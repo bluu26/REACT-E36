@@ -1,7 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 
-const entryPath = "04_Dzien_5-7/01_Kompozycja_i_props_children/04_Zadanie_4";
+const entryPath = "07_Dzien_11/01_Metody_cyklu_zycia_komponentu/06_Zadanie_6";
 
 module.exports = {
   mode: "none",
