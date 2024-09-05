@@ -13,9 +13,9 @@ class Clock extends Component {
             })
         }, 1000)
     }
-    componentWillUnmount() {
-        clearInterval(this.id);
-    }
+    // componentWillUnmount() {
+    //     clearInterval(this.id);
+    // }
     render() {
         return (
             <div>
