@@ -9,5 +9,3 @@ const App = () => <CustomTitle/>
 root.render(<App />);
 
 
-
-
