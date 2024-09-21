@@ -1,5 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import Box from "../../03_Zadanie_3/js/Box";
+import Modal from "./Modal";
 
 const App = () => {
   return (
