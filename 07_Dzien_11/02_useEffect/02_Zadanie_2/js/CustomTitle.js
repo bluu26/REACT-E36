@@ -5,17 +5,16 @@ const CustomTitle = () => {
 
     useEffect(() => {
         document.title = counter;
-    }, [counter])
+    }, [counter]);
 
-    return (
-        <div>
-            <p onClick={() => setCounter(prev => prev + 1)}>
-                kliknięto mnie już {counter} razy {/* Poprawiono tekst */}
-            </p>
-
-        </div>
-    )
+    return <div>
+        <p onClick={() => setCounter(prev => prev +1)}
+        style ={{fontSize: `${1.2 * counter}rem`}}>
+            kliknieto mnie już {counter} razy
+        </p>
+    </div>
 }
+
 
 
 export default CustomTitle
