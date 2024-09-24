@@ -26,7 +26,6 @@ class StrobeLight extends Component {
 
 
 
-
     render() {
         const {color} = this.props;
         const {isOn} = this.state;
