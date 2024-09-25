@@ -32,6 +32,7 @@ const StopWatch = () => {
         return () => clearInterval(interval)
 
 
+
     },[isRunning]);
   return (
     <div>
