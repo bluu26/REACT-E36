@@ -45,8 +45,6 @@ const StopWatch = () => {
             <li key={index}>{lap}s</li>
         ))}</ul>
     </div>
-
-
   );
 }
 
