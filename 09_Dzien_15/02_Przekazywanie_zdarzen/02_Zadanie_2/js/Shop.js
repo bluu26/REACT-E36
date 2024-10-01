@@ -21,8 +21,6 @@ const Shop = () => {
           </ul>
       </div>
 
-
-
   );
 }
 
