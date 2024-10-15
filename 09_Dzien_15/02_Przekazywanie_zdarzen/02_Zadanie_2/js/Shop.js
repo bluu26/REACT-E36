@@ -18,6 +18,9 @@ const Shop = () => {
               {boughtItems.map((item, index) => (
                   <li key={index}>{item}</li>
               ))}
+
+
+
           </ul>
       </div>
 
