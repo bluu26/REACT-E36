@@ -19,8 +19,6 @@ const Shop = () => {
                   <li key={index}>{item}</li>
               ))}
 
-
-
           </ul>
       </div>
 
